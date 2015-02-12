@@ -1,0 +1,5 @@
+<ul class="list-group">
+    <li ng-repeat="post in mesPosts" class="list-group-item">
+        <a ui-sref="post({ id: post.id })"><strong>{{ post.title }}</strong> {{ post.body }}</a>
+    </li>
+</ul>
